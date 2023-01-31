@@ -1,0 +1,187 @@
+*{
+    font-family: "Verdana", Times, serif;
+}
+
+.headerImage{
+    width: 100%;
+    text-align: center;
+}
+
+.headreImagContainer{
+    position: relative;
+    text-align: center;
+    color: rgb(9, 9, 9);
+}
+
+.ExpressVPNlogo{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+
+}
+.selectLangdiv{
+    position: absolute;
+    right: 15%;
+    top: 5%;
+}
+.headerVpn{
+    position: absolute;
+    font-size: 3.6rem;
+    width: 100%;
+    top: 17%;
+    font-weight: bolder;
+}
+.text-2{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+.text-4{
+    position: absolute;
+    width: 100%;
+    top: 53%;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.GetExpressVPNbuttondiv{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+}
+
+.main-grid-container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 5rem 10%;
+    margin: 90px;
+    grid-template-columns: fit-content(8ch) fit-content(8ch);
+    justify-content: center;
+}
+
+.firstImage, .secondImage, .thirdImage {
+    width: 300px;
+}
+
+
+/* block item font */
+.block-title{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.block-para{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+/* button decoration */
+
+.btn{
+    margin-top: 10px;
+    border:none;
+    outline: none;
+    padding: 15px 25px;
+    padding: 14px 51px;
+    border-radius: 67px;
+    color: white;
+    background: rgb(26, 108, 60);
+    font-size: 15px;
+}
+
+.GetExpressVPNbutton{
+    margin: 0px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+.flex-container{
+    display: flex;
+    /* width: 70%; */
+    justify-content: center;
+}
+
+.flex-item{
+    margin-left: 40px;
+    margin-right: 4 0px;
+    width: min-content;
+}
+
+.flex-container > .flex-item > div{
+    display: flex;
+}
+.flex-box-img{
+    border: none;
+    border-radius: 90px;
+    width: 235px;
+}
+.flex-box-header{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-box-discription{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer-container{
+    bottom: 0px;
+    position: relative;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-item-1{
+    position: absolute;
+    left: 20%;
+    top:10%;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.footer-item-2{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+.footer-item-3{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+.footer-item-4{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+}
+
+.footer-num{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.footer-num-des{
+    font-size: smaller;
+}
+
+
+#selectlanguage{
+    text-decoration: none;
+    background:none;
+    border: none;
+    font-weight: bold;
+}
+.seeAllanker{
+    font-size: 14px;
+    color:green;
+}
